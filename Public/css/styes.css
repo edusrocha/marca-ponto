@@ -1,0 +1,120 @@
+/*Geral*/
+
+body{
+    margin: 0%;
+    background-image: url("../assests/degrade.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: #FFFFF0;
+    opacity: 0.4;
+    
+}
+
+h2{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+footer{
+    background-color: #FFFFF0;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.button-float{
+    color: blue;
+    font-size: 28px;
+}
+.btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*index*/
+
+.entry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.btnSign{
+    justify-items: center;
+    align-items: center;
+    color: #FFFFF0;
+    background-color: rgb(30, 52, 247);
+    width: 200px;
+    height: 40px;
+    margin-top: 15%;
+    margin-bottom: 8%;
+    border-color: aqua;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.btnLogin{
+    justify-items: center;
+    align-items: center;
+    color: #FFFFF0;
+    background-color: green;
+    width: 200px;
+    height: 40px;
+    margin-top: 15%;
+    margin-bottom: 8%;
+    border-color: aqua;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.imgCentral{
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.btnContactus{
+    justify-items: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(206, 155, 44);
+    width: 200px;
+    height: 40px;
+    margin-bottom: 18%;
+    border-color: aqua;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+/*Modal*/
+
+.modalSricpt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.positionButtonModal{
+    display: flex;
+    justify-content: center;
+}
+h5,h6{
+    color: blue;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
